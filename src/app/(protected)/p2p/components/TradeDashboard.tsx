@@ -351,7 +351,8 @@ function TradeDashboardInner() {
                                 <article
                                     key={offer.offerId}
                                     aria-labelledby={`offer-title-${offer.offerId}`}
-                                    className="flex flex-col xl:flex-row bg-[#0D1D2C] border border-[#263949] rounded-2xl p-6 hover:border-[#55D6BE] hover:bg-[#1A1A1C] transition-all duration-300 group gap-6 xl:gap-0"
+                                    tabIndex={0}
+                                    className="flex flex-col xl:flex-row bg-[#0D1D2C] border border-[#263949] rounded-2xl p-6 hover:border-[#55D6BE] hover:bg-[#1A1A1C] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#55D6BE] transition-all duration-300 group gap-6 xl:gap-0"
                                 >
                                     {/* Left: Identity and Capacity */}
                                     <div className="flex flex-col gap-6 xl:w-[40%]">
